@@ -21,7 +21,7 @@ body {
     background-color: var(--main-bg-color);
     font-family: 'Roboto';
         font-size: 14px;
-        line-height: calc(24/14);   
+        /* line-height: calc(24/14);    */
         letter-spacing: 0.03em;
 }
 
@@ -430,8 +430,11 @@ address {
 }
 
 .link-footer {
+    display: block;
     color: var(--add-color);
     text-decoration: none;
+    font-size: 14px;
+    line-height: calc(24/14);
 
     
 }
