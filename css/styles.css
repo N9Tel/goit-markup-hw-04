@@ -271,6 +271,14 @@ img {
     margin-right: 30px;
 }
 
+.feature-btn {
+    width: 270px;
+    height: 120px;
+    border: transparent;
+    border-radius: 4px;
+    background-color: var(--add-bg-color);
+}
+
 .features {
         font-weight: 700;
         font-size: 14px;
@@ -343,6 +351,7 @@ img {
 
 .team-item {
     background-color: var(--main-bg-color);
+  
 }
 
 .team {
@@ -379,6 +388,23 @@ padding-bottom: 30px;
 .link {
     text-decoration: none;
 }
+
+
+/* Постійні клієнти */
+
+.client-title {
+    
+    font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        letter-spacing: 0.03em;
+        color: var(--header-color);
+        text-align: center;
+        padding: 0;
+        margin: 0;
+}
+
+
 
 /* Підвал */
 .section-footer {
@@ -445,9 +471,7 @@ address {
 } 
     
     
- /* .footer-item {
-   
-}  */
+ 
 
 
 
