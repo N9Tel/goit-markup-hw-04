@@ -402,6 +402,23 @@ padding-bottom: 30px;
         text-align: center;
         padding: 0;
         margin: 0;
+        margin-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client-link {
+    display: inline-block;
+    
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
 }
 
 
@@ -469,7 +486,14 @@ address {
  .footer-item :not(:nth-last-child) {
     margin-bottom: 9px;
 } 
-    
+  
+.social-link {
+ width: 44px;
+ height: 44px;
+ background-color: rgba(255, 255, 255, 0.1);
+ border-radius: 50%;
+ display: flex;
+}
     
  
 
