@@ -280,12 +280,13 @@ img {
     margin-right: 30px;
 }
 
-.festure-btn {
+.feature-btn {
     width: 270px;
         height: 120px;
          border: transparent; 
         border-radius: 4px;
         background-color: var(--add-bg-color);
+        margin-bottom: 30px;
         
     
     
