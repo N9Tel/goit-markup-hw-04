@@ -204,11 +204,18 @@ img {
 /* Hero */
 .section-hero {
     width: 1600px;
-    height: auto;
+    height: 600зч;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
 }
 
 .hero-title {
@@ -254,21 +261,6 @@ img {
        
 }
 
-.overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: linear-gradient
-    (to right),
-    rgba(0, 0, 0, 0.8)
-    rgba(0, 0, 0, 0.8);
-    background-image: url('../images/hero.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
 
 /* Feature */
 
@@ -281,19 +273,22 @@ img {
 }
 
 .feature-item {
-    width: 270px;
+    
 }
 
 .feature-item :not(:nth-last-child) {
     margin-right: 30px;
 }
 
-.feature-btn {
+.festure-btn {
     width: 270px;
-    height: 120px;
-    border: transparent;
-    border-radius: 4px;
-    background-color: var(--add-bg-color);
+        height: 120px;
+         border: transparent; 
+        border-radius: 4px;
+        background-color: var(--add-bg-color);
+        
+    
+    
 }
 
 .features {
@@ -408,6 +403,11 @@ padding-bottom: 30px;
 
 
 /* Постійні клієнти */
+
+.section-clients {
+   
+    justify-content: center;
+}
 
 .client-title {
     
