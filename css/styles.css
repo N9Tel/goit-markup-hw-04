@@ -147,9 +147,6 @@ img {
 .nav, .link {
     color: var(--header-color);
     font-weight: 500;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
-    /* display: inline-block; */
     align-items: baseline;
 
 }
@@ -183,6 +180,7 @@ img {
     letter-spacing: 0.02em;
     padding: 32px 0;
 }
+
 
 .link-tel:hover {
     color: var(--accent-color);
@@ -272,9 +270,9 @@ img {
     gap: 30px;
 }
 
-.feature-item {
+/* .feature-item {
     
-}
+} */
 
 .feature-item :not(:nth-last-child) {
     margin-right: 30px;
