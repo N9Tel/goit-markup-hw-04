@@ -363,6 +363,12 @@ img {
 
 .team-item {
     background-color: var(--main-bg-color);
+    box-shadow: 0px 1px 1px
+    rgba(0, 0, 0, 0.12),
+    0px 4px 4px
+    rgba(0, 0, 0, 0.06),
+    1px 4px 6px 
+    rgba(0, 0, 0, 0.16);
   
 }
 
@@ -560,9 +566,6 @@ address {
 
 .flex-element {
     width: 370px;
-    
-    
-      
 }
 
 .flex-element:nth-child(3n) {
@@ -571,6 +574,14 @@ address {
 
 .flex-element:nth-last-child(-n+3) {
     margin-bottom: 0;
+}
+
+.flex-element:hover {
+    border: 1px solid #ffffff;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+            0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+        
 }
 
 .flex-item {
@@ -596,6 +607,23 @@ text-align: center;
 border: 1px solid transparent;
 
 }
+
+.c-button:hover,
+.c-button:focus {
+    box-shadow: 0px 1px 1px
+    rgba(0, 0, 0, 0.12),
+    0px 4px 4px
+    rgba(0, 0, 0, 0.06),
+    1px 4px 6px
+    rgba(0, 0, 0, 0.16);
+}
+
+/* .flex-link:hover, {
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);;
+} */
 
 .description {
    
