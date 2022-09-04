@@ -168,10 +168,12 @@ img {
 }
 
 
-.contacts .link-mail:hover,
+
+
+ .contacts .link-mail:hover,
 .contacts .link:focus {
-    color: var(--accent-color);
-}
+    color: var(--accent-color); 
+} 
 .link-mail {
     color: var(--main-txt-color);
     text-decoration: none;
@@ -182,9 +184,9 @@ img {
 }
 
 
-.link-tel:hover {
+ .link-tel:hover {
     color: var(--accent-color);
-}
+} 
 
 .link-tel {
     color: var(--main-txt-color);
@@ -194,6 +196,15 @@ img {
         text-decoration: none;
         padding: 32px 0;
         display: flex;
+}
+
+.mail-icon {
+    fill: var(--main-txt-color);
+    margin-right: 10px;
+}
+.tel-icon {
+    fill: var(--main-txt-color);
+    margin-right: 10px;
 }
 
 
@@ -381,6 +392,7 @@ img {
     width: 44px;
      height: 44px;
     border-radius: 50%;
+    padding: 0;
 
 }
 
@@ -536,6 +548,9 @@ address {
 } 
   
 .social-link-f {
+    display: flex;
+        align-items: center;
+        justify-content: center;
  width: 44px;
  height: 44px;
  background-color: rgba(255, 255, 255, 0.1);
