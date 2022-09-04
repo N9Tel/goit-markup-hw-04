@@ -501,7 +501,9 @@ padding-top: 30px;
 
 .flex-container-f {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    
+    
     
 }
 
@@ -558,7 +560,16 @@ address {
 
  .footer-item :not(:nth-last-child) {
     margin-bottom: 9px;
-} 
+}
+
+.social {
+    margin-left: 70px;
+    
+}
+
+.social-title {
+    text-transform: uppercase;
+}
   
 .social-link-f {
     display: flex;
