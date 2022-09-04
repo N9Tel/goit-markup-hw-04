@@ -383,6 +383,13 @@ img {
   
 }
 
+.social-list {
+    display: flex;
+    align-items: center;
+}
+
+
+
 .social-item {
     display: inline-block;
     margin: 0;
