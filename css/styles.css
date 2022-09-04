@@ -454,7 +454,9 @@ padding-bottom: 30px;
 }
 
 .client-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    fill: #AFB1B8;
     width: 170px;
     height: 92px;
