@@ -129,7 +129,8 @@ img {
 
 .nav-item {
     display: block;
-     padding: 32px 0; 
+     margin-top: 32px;
+     margin-bottom: 32px;
     
 }
 
@@ -139,14 +140,14 @@ img {
     display: flex;    
     align-items: center;    
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     
 }
 
 .nav, .link {
     color: var(--header-color);
     font-weight: 500;
+    display: block;
     align-items: baseline;
 
 }
@@ -170,8 +171,10 @@ img {
 
 
 
- .contacts .link-mail:hover,
-.contacts .link:focus {
+  .link-mail:hover,
+ .link-mail:focus,
+ .link-tel:hover,
+ .link-tel:focus {
     color: var(--accent-color); 
 } 
 .link-mail {
@@ -198,6 +201,11 @@ img {
         display: flex;
 }
 
+.link-mail,
+.link-tel {
+    display:block
+}
+
 .mail-icon {
     fill: currentColor;
     margin-right: 10px;
@@ -213,8 +221,8 @@ img {
 
 /* Hero */
 .section-hero {
-    width: 1600px;
-    height: 600зч;
+    max-width: 1600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -291,6 +299,9 @@ img {
 }
 
 .feature-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
         height: 120px;
          border: transparent; 
@@ -387,8 +398,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 30px;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -437,8 +448,8 @@ img {
 .team-text {
    
 text-align: center;
-padding-top: 30px;
- padding-bottom: 30px; 
+ padding-top: 30px;
+ padding-bottom: 30px;  
 
 }
 
@@ -447,7 +458,8 @@ padding-top: 30px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
     margin-top: 0;
-        margin-bottom: 0;
+         margin-bottom: 16; 
+         
 }
 
 
@@ -581,6 +593,8 @@ address {
 
 .social-title {
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
 }
   
 .social-link-f {
